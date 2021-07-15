@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link href="styles.css" rel="stylesheet">
+      <link href="bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body>
+               
+         <div class="container">
+               <div class="row">
+                  <div class="col-md-9">
+                        <div class="todolist not-done">
+                     <h1 align="center" >Todo List</h1>
+                     <input type="text" id="tInput" placeholder="What needs to be done?" class="form-control add-todo">
+                     <button id="tAdd" class="btn btn-primary">ADD</button>
+                     <button id="delAll" class="btn btn-warning">DELETE ALL</button>
+                     <ul id="tList" class="list-unstyled"></ul>
+                  <div id="pagination"></div>
+                  <div class="tabs">
+                  <button id="all" class="state1 btn-success">All</button>
+                  <button id="active" class="state1">Active</button>
+                  <button id="complete" class="state1">Complete</button>  
+                  <span id="counter"></span>
+                  </div>
+                  <div class="tabs2">
+                  <!-- <button id="allCheck" class="btn btn-outline-success">CHECK ALL / UNCHECK ALL</button> -->
+                  <button id="allCheck" class="btn btn-outline-success">CHECK ALL / UNCHECK ALL</button>
+                  <button id="delCheck" class="btn btn-outline-danger">DELETE COMPLETED</button>
+               </div>
+               
+
+      <script src="jquery.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>

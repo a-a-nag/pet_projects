@@ -1,0 +1,110 @@
+.my-check {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li  {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.PageStyle {
+    background-color: red;
+}
+
+.state1 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: .25rem;
+    display: inline-block;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+border: 1px solid transparent;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s
+}
+
+.state2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: .25rem;
+    display: inline-block;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+border: 1px solid transparent;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s
+}
+
+.state1:hover {background-color: #3e8e41}
+
+.state1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.state3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.state4 {
+    word-break: break-all;
+}
+.btn {
+    margin-top: 11px;
+}
+
+.tabs{
+    float: left;
+}
+.del-btn{
+    float: right;
+}
+.tabs2{
+    float: right;
+}
+.ch-task{
+    width: 94%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s
+}
